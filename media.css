@@ -1,0 +1,64 @@
+@media (max-width:600px) {
+    #navbar2 ul{
+        top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      /* background-color: purple; */
+      overflow: hidden;
+      transition: all 0.5s;
+    }
+    
+    .menuIcon{
+        display: block;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        height: 100%;
+        width: 100%;
+    }
+    .leftContent{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        font-size: 0.5rem;
+    }
+    /* .middlecont{
+        margin-top: 15px;
+    } */
+    .intro{
+        font-size: 100%;
+        
+    }
+    .middlecont{
+        padding: 10px;
+    }
+.bottomcont{
+width: 100%;
+/* background-color: red; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+.hireMe{
+width: 50%;
+}
+    .portFolio{
+width: 50%;
+    }
+    .right{
+        height: 100%;
+        width: 100%;    
+        padding: 10px;
+    }
+    .right img{
+        height: 40vh;
+        width: 80vw;
+    }
+}
+

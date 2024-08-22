@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <!-- navbar1 -->
+        <div id="navbar1">
+            <h1><b>CodeFolio</b></h1>
+        </div>
+        <!-- navbar2 -->
+        <div id="navbar2">
+            <ul class="menuList">
+                <li>Home</li>
+                <li>About</li>
+                <li>Sirvice</li>
+                <li>Resume</li>
+                <li>Portfolio</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        
+        <div class="menuIcon">
+            <i class="fa-solid fa-bars" id="nav-icon" onclick="toggleMenu()"></i>
+        </div>
+        
+    </div>
+    <!-- section 2-->
+    <div class="body">
+        <!-- left -->
+        <div class="left">
+            <div class="leftContent">
+                <!-- top -->
+                <div class="topcontent">
+                    <p class="hello">Hello</p>
+                    <p class="intro">I'm <span class="bold">Mahaveer</span> <br>a Web Developer</p>
+                </div>
+                <!-- mid -->
+                <div class="middlecont">Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit. Facere, iste. Voluptatem
+                      labore repellendus non illum unde, debitis veniam, alias quam architecto nisi,
+                     earum rem vero sapiente porro delectus autem illo.</div>
+                     <!-- bottom -->
+                <div class="bottomcont">
+                        <button class="hireMe">Hire Me</button>
+                        <button class="portFolio">PortFolio</button>
+                </div>
+            </div>
+        </div>
+        <!-- right -->
+        <div class="right">
+            <img src="./assets/DSC_8847 (1).png" alt="">
+        </div>
+    </div>
+
+        <!-- js -->
+        <script>
+            let menuList = document.querySelector(".menuList");
+            menuList.style.maxHeight="0px"
+            function toggleMenu(){
+                if (menuList.style.maxHeight=="0px") {
+                    menuList.style.maxHeight="300px"
+                }
+                else{
+                    menuList.style.maxHeight="0px"
+                }
+            }
+
+        </script>
+</body>
+
+</html>
