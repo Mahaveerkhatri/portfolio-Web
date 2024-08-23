@@ -68,12 +68,16 @@
         <script>
             let menuList = document.querySelector(".menuList");
             menuList.style.maxHeight="0px"
+            let bodyTop = document.querySelector(".body");
+            bodyTop.style.marginTop = "0px";
             function toggleMenu(){
                 if (menuList.style.maxHeight=="0px") {
                     menuList.style.maxHeight="300px"
+                    bodyTop.style.marginTop = "320px";
                 }
                 else{
                     menuList.style.maxHeight="0px"
+                    bodyTop.style.marginTop = "0px";
                 }
             }
 

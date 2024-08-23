@@ -62,3 +62,150 @@ width: 50%;
     }
 }
 
+/* 992PX */
+@media screen and (max-width:992px) {
+    #navbar2 ul{
+        top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      /* background-color: purple; */
+      overflow: hidden;
+      transition: all 0.5s;
+    }
+    .body{
+        display: flex;
+        
+    }
+/* chat */
+.menuList {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+    .left{
+        height: 100%;
+        width: 100%;
+    }
+    .leftContent{
+        display: flex;
+        width: 100%;
+        
+        flex-direction: column;
+        height: 47%;
+        font-size: 0.5rem;
+        gap: 10px;
+    }
+    .topcontent{
+        text-align: center;
+ 
+    }
+    /* .middlecont{
+        margin-top: 15px;
+    } */
+    .intro {
+        font-size: 100%;
+        text-align: start;
+      }
+    .middlecont{
+        padding: 10px;
+    }
+.bottomcont{
+width: 100%;
+/* background-color: red; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+.hireMe{
+width: 50%;
+}
+    .portFolio{
+width: 50%;
+    }
+    .right{
+        height: 100%;
+        width: 100%;    
+        padding: 10px;
+    }
+    .right img{
+        height: 40vh;
+        width: 40vw;
+    }
+    .menuIcon{
+        display: block;
+    }
+    
+}
+    
+
+/* 768PX */
+@media screen and (max-width:768px) {
+    #navbar2 ul{
+        top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      /* background-color: purple; */
+      overflow: hidden;
+      transition: all 0.5s;
+    }
+    
+    .menuIcon{
+        display: block;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        transition: margin-top 0.5s ease;
+        
+    }
+    .left{
+        height: 100%;
+        width: 100%;
+    }
+    .leftContent{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        font-size: 0.5rem;
+    }
+    /* .middlecont{
+        margin-top: 15px;
+    } */
+    .intro{
+        font-size: 100%;
+        
+    }
+    .middlecont{
+        padding: 10px;
+    }
+.bottomcont{
+width: 100%;
+/* background-color: red; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+.hireMe{
+width: 50%;
+}
+    .portFolio{
+width: 50%;
+    }
+    .right{
+        height: 100%;
+        width: 100%;    
+        padding: 10px;
+    }
+    .right img{
+        height: 44vh;
+        width: 60vw;
+    }
+}
+
+
